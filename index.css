@@ -4,9 +4,19 @@
     box-sizing: border-box;
 }
 
-header {
-   
+.rufina-regular {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.rufina-bold {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {}
 
 .poppins-medium {
     font-family: "Poppins", sans-serif;
@@ -21,19 +31,23 @@ header {
     font-family: "Poppins", sans-serif;
     display: flex;
     gap: 60px;
+    font-weight: 500;
+    font-style: Medium;
 }
 
 .HomeMenu {
     display: flex;
-    gap: 60px;
+    gap: 57px;
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
 }
 
 .HeaderMenu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 57px;
     margin-left: 174px;
     margin-right: 174px;
     padding-top: 54px;
@@ -56,23 +70,82 @@ header {
     border-color: #224F34;
     height: 52px;
     width: 142px;
-    border: 2px solid  #224F34;
+    border: 2px solid #224F34;
     border-radius: 3px;
-    margin-left: 63px;
+    margin-left: 98px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
+    font-weight: 500;
+    font-style: Medium;
 
 }
-.BasketDiv{
+
+.BasketDiv {
     display: flex;
     align-items: center;
 }
 
-.Basket{
+.Basket {
     width: 32px;
     height: 32px;
 }
-.section1{
+
+.section1 {
     height: 1117px;
     background-color: #C2EFD4;
+}
+
+.HeaderInfo {
+    display: flex;
+}
+
+.Headertxt {
+    height: 632px;
+    width: 649px;
+    margin-right: 160px;
+}
+
+.HeaderHeadline {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #224F34;
+    font-size: 86px;
+    overflow-wrap: break-word;
+    margin-top: 152px;
+    margin-left: 174px;
+    margin-bottom: 27px;
+    width: 649px;
+    height: 318px;
+}
+
+
+.HeaderDescription {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    color: #267D49;
+    overflow-wrap: break-word;
+    margin-left: 174px;
+    line-height: 220%;
+    width: 565px;
+    height: 169px;
+}
+
+.HIBtn {
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #224F34;
+    color: rgb(255, 255, 255);
+    margin-left: 174px;
+    height: 74px;
+    width: 258px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 54px;
+    box-shadow: 8px 20px 30px 0px #23332a74;
+
 }
