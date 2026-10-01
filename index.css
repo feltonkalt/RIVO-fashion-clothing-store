@@ -1,5 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+header {
+   
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+}
+
+.HomeMenu a {
+    text-decoration: none;
+    color: #224F34;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    gap: 60px;
+}
+
+.HomeMenu {
+    display: flex;
+    gap: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.HeaderMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-left: 174px;
+    margin-right: 174px;
+    padding-top: 54px;
+
+}
+
+.Login {
+    display: flex;
+    align-items: center;
+}
+
+.RivoLogo {
+    width: 94px;
+    height: auto;
+}
+
+.LogoBtn {
+    box-shadow: none;
+    background-color: #C2EFD4;
+    border-color: #224F34;
+    height: 52px;
+    width: 142px;
+    border: 2px solid  #224F34;
+    border-radius: 3px;
+    margin-left: 63px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+
+}
+.BasketDiv{
+    display: flex;
+    align-items: center;
+}
+
+.Basket{
+    width: 32px;
+    height: 32px;
+}
+.section1{
+    height: 1117px;
+    background-color: #C2EFD4;
 }
