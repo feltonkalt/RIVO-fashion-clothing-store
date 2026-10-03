@@ -321,6 +321,11 @@
     height: auto;
 }
 
+.BtnCards3 {
+    box-shadow: none;
+    border-style: none;
+}
+
 .CardsS3Class {
     width: 318px;
     height: 378px;
