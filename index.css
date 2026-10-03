@@ -242,7 +242,8 @@
     display: flex;
     flex-direction: row;
 }
-.CardSect2Class{
+
+.CardSect2Class {
     width: 430px;
     height: auto;
 }
@@ -275,7 +276,45 @@
     font-size: 22px;
     margin-right: 18px;
 }
-.CardArrowClass{
+
+.CardArrowClass {
     width: 23px;
+    height: auto;
+}
+
+.Section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeadlineSect3 {
+    margin-top: 185px;
+    color: #224F34;
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.HeadSect3 {
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: #454545;
+}
+.HeadSectPL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.HeadLineMenu{
+    width: 46px;
     height: auto;
 }
