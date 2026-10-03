@@ -242,6 +242,10 @@
     display: flex;
     flex-direction: row;
 }
+.CardSect2Class{
+    width: 430px;
+    height: auto;
+}
 
 .CardRatingClass {
     width: 24px;
