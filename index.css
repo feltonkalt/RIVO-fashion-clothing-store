@@ -368,3 +368,96 @@
     flex-direction: row;
     gap: 40px;
 }
+
+.Section4 {
+    margin-top: 195px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 218px;
+}
+
+.Section4Back {
+    background-color: #C2EFD4;
+    width: 1377px;
+    height: 596px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ImgSect4 {
+    width: 482px;
+    height: 596px;
+}
+
+.Sect4Info {
+    width: 589px;
+    height: 447px;
+}
+
+.HeadlineSect4 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    color: #224F34;
+    margin-bottom: 20px;
+}
+
+.DescriptionSect4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: #224F34;
+    overflow-wrap: break-word;
+    width: 589px;
+}
+
+.QuartersSect4 {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 41px;
+}
+
+.QuartSect4 {
+    background-color: #FFFF;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.QuartCount {
+    color: #224F34;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+
+.QuartDescr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #224F34;
+}
+
+.BuyNowSect4Btn {
+    width: 235px;
+    height: 74px;
+    border-style: none;
+    background-color: #224F34;
+    color: #FFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
