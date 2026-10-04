@@ -674,6 +674,11 @@
     justify-content: space-between;
 }
 
+.DivForGapFooter {
+    display: flex;
+    gap: 114px;
+}
+
 .LogoFooter {
     width: 117px;
     height: 61px;
@@ -694,6 +699,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-right: 217px;
 }
 
 .SocialMediaFooter {
@@ -719,6 +725,7 @@
     flex-direction: column;
     margin-top: 105px;
     gap: 18px;
+
 }
 
 .ShopAndCompanyFooter a {
@@ -742,5 +749,75 @@
     font-weight: 500;
     font-style: normal;
     color: #C2EFD4;
+    font-size: 20px;
+}
+
+.StayUpToDateFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+}
+
+.EnterEmailBox {
+    width: 487px;
+    height: 57px;
+    border: 2px solid #A3F3BE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.FieldForEmailText {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFF;
+    font-size: 20px;
+    margin-left: 28px;
+}
+
+.SubmitBtn {
+    border-style: none;
+    color: #224F34;
+    background-color: #A3F3BE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 115px;
+    height: 57px;
+}
+
+.FooterDescr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 97px;
+    align-items: center;
+    gap: 35px;
+}
+
+.LineFooter {
+    width: 1051px;
+    height: 2px;
+}
+
+.FooterInfoDown a {
+    text-decoration: none;
+}
+
+.FooterInfoDown {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.FooterInfoDowntext {
+    color: #FFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 20px;
 }
