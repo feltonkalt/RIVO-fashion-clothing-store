@@ -521,6 +521,7 @@
     font-style: normal;
     color: #373737;
     font-size: 22px;
+    margin-bottom: 249px;
 
 }
 
@@ -532,4 +533,9 @@
     color: #373737;
     margin-top: 25px;
     margin-bottom: 5px;
+}
+.Sect6FeedBack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
