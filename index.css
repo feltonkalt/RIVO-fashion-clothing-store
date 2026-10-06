@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
 
 .rufina-regular {
     font-family: "Rufina", serif;
@@ -47,8 +52,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 57px;
-    margin-left: 174px;
-    margin-right: 174px;
     padding-top: 54px;
 
 }
@@ -102,7 +105,7 @@
 .Headertxt {
     height: 632px;
     width: 649px;
-    margin-right: 160px;
+    overflow-wrap: break-word;
 }
 
 .HeaderHeadline {
@@ -113,7 +116,6 @@
     font-size: 86px;
     overflow-wrap: break-word;
     margin-top: 152px;
-    margin-left: 174px;
     margin-bottom: 27px;
     width: 649px;
     height: 318px;
@@ -127,7 +129,6 @@
     font-size: 24px;
     color: #267D49;
     overflow-wrap: break-word;
-    margin-left: 174px;
     line-height: 220%;
     width: 565px;
     height: 169px;
@@ -140,7 +141,6 @@
     font-style: normal;
     background-color: #224F34;
     color: rgb(255, 255, 255);
-    margin-left: 174px;
     height: 74px;
     width: 258px;
     border-radius: 3px;
@@ -151,8 +151,6 @@
 
 .HeaderImg {
     margin-bottom: 166px;
-    margin-right: 175px;
-    margin-left: 60px;
     margin-top: 128px;
 }
 
@@ -198,6 +196,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 43px;
 }
 
