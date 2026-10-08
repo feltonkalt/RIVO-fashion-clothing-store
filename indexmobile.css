@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 1024px;
+        padding-inline: 60px;
+    }
+    .HeaderHeadline{
+        font-size: 43px;
+        margin-top: 76px;
+        margin-bottom: 13px;
+        overflow-wrap: break-word;
+    }
+    .HeaderDescription{
+        font-size: 12px;
+        overflow-wrap: break-word;
+    }
+    .Headertxt{
+        height: 216px;
+        width: 325px;
+    }
+    .HeaderImg1{
+        height: 360px;
+        width: 285px;
+    }
+    .HeaderImg{
+        margin-bottom: 83px;
+        margin-top: 64PX;
+    }
+
+
+}
