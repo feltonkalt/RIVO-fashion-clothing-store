@@ -1,30 +1,421 @@
 @media screen and (max-width: 1024px) {
-    .container{
+    .container {
         max-width: 1024px;
-        padding-inline: 60px;
+        padding-inline: 80px;
     }
-    .HeaderHeadline{
+
+    .HeaderHeadline {
         font-size: 43px;
         margin-top: 76px;
         margin-bottom: 13px;
         overflow-wrap: break-word;
+        height: 155px;
+        width: 325px;
     }
-    .HeaderDescription{
+
+    .HeaderDescription {
         font-size: 12px;
         overflow-wrap: break-word;
+        height: 85px;
+        width: 283px;
     }
-    .Headertxt{
+
+    .Headertxt {
         height: 216px;
         width: 325px;
     }
-    .HeaderImg1{
+
+    .HeaderImg1 {
         height: 360px;
         width: 285px;
     }
-    .HeaderImg{
+
+    .HeaderImg {
         margin-bottom: 83px;
         margin-top: 64PX;
     }
+
+    .RivoLogo {
+        height: auto;
+        width: 47px;
+    }
+
+    .LogoBtn {
+        height: 26px;
+        width: 71px;
+        font-size: 10px;
+    }
+
+    .Basket {
+        width: 32px;
+        height: 32px;
+    }
+
+    .Headertxt {
+        height: 316px;
+        width: 325px;
+    }
+
+    .section1 {
+        height: 559px;
+    }
+
+    .HomeMenu a {
+        font-size: 11px;
+        gap: 30px;
+    }
+
+    .HIBtn {
+        font-size: 10px;
+        height: 37px;
+        width: 129px;
+    }
+
+
+
+    .textSect2 {
+        margin-top: 57px;
+    }
+
+    .HeadlineSect2 {
+        font-size: 32px;
+    }
+
+    .DescriptionSect2 {
+        font-size: 11px;
+        margin-top: 19px;
+        margin-bottom: 40px;
+    }
+
+    .CardDescriptionSect2 {
+        margin-top: 26px;
+    }
+
+    .DescCardS2 {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+
+    .CardLineClass {
+        height: 14px;
+        width: auto;
+    }
+
+    .CardInfoSect2 {
+        font-size: 11px;
+        gap: 20px;
+    }
+
+    .CardSect2Class {
+        width: 215px;
+        height: auto;
+    }
+
+    .CardRatingClass {
+        width: 12px;
+        height: 12px;
+        margin-left: 4px;
+    }
+
+    .CardsSect2 {
+        gap: 22px;
+    }
+
+    .BtnSeeAllTXT {
+        font-size: 11px;
+        margin-right: 9px;
+
+    }
+
+    .BtnSeeAll {
+        width: 112px;
+        height: 33px;
+    }
+
+    .CardArrowClass {
+        height: auto;
+        width: 12px;
+    }
+
+    .HeadlineSect3 {
+        margin-top: 63px;
+        font-size: 25px;
+    }
+
+    .HeadSect3 {
+        gap: 50px;
+        font-size: 11px;
+        margin-top: 35px;
+    }
+
+    .HeadSectPL {
+        gap: 1.5px;
+    }
+
+    .HeadLineMenu {
+        width: 23px;
+        height: auto;
+    }
+
+    .CardsS3Class {
+        width: 159px;
+        height: 189px;
+    }
+
+    .CardsSect3 {
+        gap: 18px;
+        margin-top: 42px;
+    }
+
+    .DecriptionCardSect3 {
+        font-size: 11px;
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+
+    .CountCardSect3 {
+        font-size: 11px;
+        gap: 20px;
+    }
+
+    .Section4Back {
+        width: 689px;
+        height: 298px;
+    }
+
+    .ImgSect4 {
+        width: 141px;
+        height: 298px;
+    }
+
+    .Sect4Info {
+        width: 295px;
+        height: 224px;
+    }
+
+    .HeadlineSect4 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .DescriptionSect4 {
+        font-size: 11px;
+        width: 295px;
+    }
+
+    .QuartSect4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .QuartCount {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .QuartDescr {
+        font-size: 8px
+    }
+
+    .BuyNowSect4Btn {
+        width: 118px;
+        height: 37px;
+        font-size: 10px;
+    }
+
+    .HeadlineSect5 {
+        font-size: 25px;
+        margin-bottom: 26px;
+    }
+
+    .DescriptionSect5 {
+        font-size: 11px;
+        margin-bottom: 36px;
+    }
+
+    .CardsSect5 {
+        gap: 22px;
+    }
+
+    .TextCardSect5 {
+        width: 210px;
+    }
+
+    .DescrCardSect5 {
+        font-size: 11px;
+        margin-bottom: 125px;
+    }
+
+    .HeadlineCardSect5 {
+        font-size: 20px;
+        margin-top: 13px;
+        margin-bottom: 3px;
+    }
+
+    .FeedBackCorner {
+        font-size: 25px;
+        margin-bottom: 55px;
+    }
+
+    .CommSect6 {
+        gap: 19px;
+    }
+
+    .CardCommSect6 {
+        width: 217px;
+        height: 127px;
+    }
+
+    .CardCommSect6Color1 {
+        width: 217px;
+        height: 127px;
+    }
+
+    .IconCommSect6 {
+        width: 14px;
+        height: auto;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .HeadlineSect6 {
+        font-size: 11px;
+        margin-top: 11px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .HeadlineSect6Color1 {
+        font-size: 11px;
+        margin-top: 11px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .DescriptSect6 {
+        font-size: 8px;
+        margin-left: 10px;
+        width: 195px;
+        height: 48px;
+    }
+
+    .DescriptSect6Color1 {
+        font-size: 8px;
+        margin-left: 195px;
+        height: 48px;
+    }
+
+    .BtnNextBackSect6 {
+        gap: 26px;
+        margin-top: 63px;
+        margin-bottom: 97px;
+    }
+
+    .Back {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ArrowSect6 {
+        width: 3.5px;
+        height: 7px;
+    }
+
+    .Next {
+        width: 20px;
+        height: 20px;
+        margin-left: 26px;
+    }
+
+    .DivForGapFooter {
+        gap: 57px;
+    }
+
+    .LogoFooter {
+        width: 59px;
+        height: 32px;
+        margin-top: 40px;
+    }
+
+    .SocialMediaFooterHead {
+        font-size: 11px;
+        margin-top: 22px;
+    }
+
+    .LogoAndMediaFooter {
+        margin-right: 109px;
+    }
+
+    .SocialMediaFooter {
+        margin-top: 12px;
+        gap: 18px;
+        margin-bottom: 113px;
+    }
+
+    .SocialMediaFooterImg {
+        width: 19px;
+        height: 19px;
+    }
+
+    .ShopAndCompanyFooter {
+        margin-top: 53px;
+        gap: 9px;
+    }
+
+    .ShopAndCompanyFooter a {
+        gap: 9px;
+    }
+
+    .HeadlineFooter {
+        font-size: 11px;
+        margin-bottom: 13px;
+    }
+
+    .DescFooter {
+        font-size: 10px;
+    }
+
+    .StayUpToDateFooter {
+        margin-top: 53px;
+    }
+
+    .EnterEmailBox {
+        width: 244px;
+        height: 29px;
+    }
+
+    .FieldForEmailText {
+        font-size: 10px;
+        margin-left: 14px;
+    }
+
+    .SubmitBtn {
+        font-size: 10px;
+        width: 58px;
+        height: 29px;
+    }
+
+    .FooterDescr {
+        margin-bottom: 49px;
+        gap: 18px;
+    }
+
+    .LineFooter {
+        width: 526px;
+        height: 1px;
+    }
+
+    .FooterInfoDown {
+        gap: 18px;
+        font-size: 10px;
+    }
+
+    .FooterInfoDowntext {
+        font-size: 10px;
+
+    }
+    .CardImgSect5
+
 
 
 }

@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body {
-    overflow: hidden;
-}
+
 
 .container {
     max-width: 1920px;
@@ -825,4 +823,7 @@ html, body {
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
+}
+.CardImgSect5{
+
 }
